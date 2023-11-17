@@ -1,0 +1,1 @@
+# sayisalanaliz_odev2
