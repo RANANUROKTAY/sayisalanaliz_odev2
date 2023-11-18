@@ -256,25 +256,27 @@ else :
 
 #ÜÇÜNCÜ SORU
 
-import math
-print("Birinci iterasyon degeri=")
 x=2
-denklem=4*math.e**(-0.5*x)-x
-turevi=-2*math.e**(-0.5*x)-1
+e=2.7182818284590452
+print("Birinci iterasyon degeri=")
+denklem=4*e**(-0.5*x)-x
+turevi=-2*e**(-0.5*x)-1
 print(x-(denklem/turevi))
 print("İkinci iterasyon degeri=")
 x=x-(denklem/turevi)
-denklem=4*math.e**(-0.5*x)-x
-turevi=-2*math.e**(-0.5*x)-1
+denklem=4*e**(-0.5*x)-x
+turevi=-2*e**(-0.5*x)-1
 print(x-(denklem/turevi))
 print("Üçüncü iterasyon degeri=")
 x=x-(denklem/turevi)
-denklem=4*math.e**(-0.5*x)-x
-turevi=-2*math.e**(-0.5*x)-1
+denklem=4*e**(-0.5*x)-x
+turevi=-2*e**(-0.5*x)-1
 print(x-(denklem/turevi))
 print("Dördüncü iterasyon degeri=")
 x=x-(denklem/turevi)
-denklem=4*math.e**(-0.5*x)-x
+denklem=4*e**(-0.5*x)-x
+turevi=-2*e**(-0.5*x)-1
+print(x-(denklem/turevi))
 turevi=-2*math.e**(-0.5*x)-1
 print(x-(denklem/turevi))
 
