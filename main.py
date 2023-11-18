@@ -124,6 +124,7 @@ elif denklem_ust*denklem_boluk<0 :
 else :
     print("Denklem çözümü tıkandı. ")
 
+print("\n\n\n")
 
 #İKİNCİ SORU
 
@@ -253,6 +254,7 @@ elif denklem_ust*denklem_boluk<0 :
 else :
     print("Denklem çözümü tıkandı. ")
 
+print("\n\n\n")
 
 #ÜÇÜNCÜ SORU
 
@@ -276,8 +278,6 @@ print("Dördüncü iterasyon degeri=")
 x=x-(denklem/turevi)
 denklem=4*e**(-0.5*x)-x
 turevi=-2*e**(-0.5*x)-1
-print(x-(denklem/turevi))
-turevi=-2*math.e**(-0.5*x)-1
 print(x-(denklem/turevi))
 
 
